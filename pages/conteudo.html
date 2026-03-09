@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Empresa | Conteudo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="/index.html">EMPRESA</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="/index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/pages/conteudo.html"
+                  >Conteúdo</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container py-5">
+      <section class="p-4 p-md-5 mb-5 text-bg-dark rounded-3">
+        <h1 class="display-6 fw-bold">Central de Conteudo</h1>
+        <p class="col-lg-8 fs-5 mb-4">
+          Explore recomendacoes e materiais por tema. Esta pagina organiza
+          filmes, livros e jogos para facilitar a consulta do conteudo.
+        </p>
+        <a class="btn btn-warning btn-lg" href="#destaques">Ver destaques</a>
+      </section>
+
+      <section id="destaques" class="mb-5">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="h3 mb-0">Destaques da semana</h2>
+          <span class="badge text-bg-primary">Atualizado hoje</span>
+        </div>
+        <div class="row g-4">
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://picsum.photos/600/350?random=21"
+                class="card-img-top"
+                alt="Destaque de filme"
+              />
+              <div class="card-body">
+                <span class="badge text-bg-danger mb-2">Filme</span>
+                <h3 class="h5 card-title">Aventura no Espaco</h3>
+                <p class="card-text">
+                  Uma jornada de ficcao cientifica com foco em trabalho em
+                  equipe e estrategia.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://picsum.photos/600/350?random=22"
+                class="card-img-top"
+                alt="Destaque de livro"
+              />
+              <div class="card-body">
+                <span class="badge text-bg-success mb-2">Livro</span>
+                <h3 class="h5 card-title">Lideranca em Projetos</h3>
+                <p class="card-text">
+                  Leituras praticas para desenvolver comunicacao, organizacao e
+                  tomada de decisao.
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="https://picsum.photos/600/350?random=23"
+                class="card-img-top"
+                alt="Destaque de jogo"
+              />
+              <div class="card-body">
+                <span class="badge text-bg-info mb-2">Jogo</span>
+                <h3 class="h5 card-title">Desafio de Estrategia</h3>
+                <p class="card-text">
+                  Selecao de jogos para exercitar logica, colaboracao e visao de
+                  longo prazo.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="row g-4">
+        <article class="col-12 col-lg-4">
+          <div class="border rounded-3 p-4 h-100 bg-body-tertiary">
+            <h2 class="h4">Filmes</h2>
+            <p class="text-body-secondary">Sugestoes para assistir.</p>
+            <ul class="mb-0">
+              <li>Interestelar</li>
+              <li>Clube da Luta</li>
+              <li>A Origem</li>
+            </ul>
+          </div>
+        </article>
+        <article class="col-12 col-lg-4">
+          <div class="border rounded-3 p-4 h-100 bg-body-tertiary">
+            <h2 class="h4">Livros</h2>
+            <p class="text-body-secondary">Sugestoes para leitura.</p>
+            <ul class="mb-0">
+              <li>1984</li>
+              <li>Dom Casmurro</li>
+              <li>O Pequeno Principe</li>
+            </ul>
+          </div>
+        </article>
+        <article class="col-12 col-lg-4">
+          <div class="border rounded-3 p-4 h-100 bg-body-tertiary">
+            <h2 class="h4">Jogos</h2>
+            <p class="text-body-secondary">Sugestoes para jogar.</p>
+            <ul class="mb-0">
+              <li>Xadrez</li>
+              <li>Minecraft</li>
+              <li>The Witcher 3</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="container py-4 border-top text-center text-body-secondary">
+      Pagina de conteudo da empresa.
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
